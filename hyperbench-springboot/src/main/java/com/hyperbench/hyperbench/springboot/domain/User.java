@@ -1,14 +1,13 @@
 package com.hyperbench.hyperbench.springboot.domain;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotNull;
 
 @Data
-
+@NoArgsConstructor
 public class User {
 
-    @NotNull
     private Long id;
     private String name;
     private Integer age;
