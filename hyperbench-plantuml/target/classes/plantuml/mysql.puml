@@ -1,0 +1,15 @@
+@startmindmap
+* MySQL
+** 1.MySQL架构
+** 2.存储引擎
+** 3.数据类型
+** 4.索引
+** 5.MySQL查询
+** 6.MySQL事务
+** 7.MySQL锁机制
+** 8.MySQL调优
+** 9.分区，分表，分库
+** 10.主从复制
+** 11.其他问题
+** https://juejin.im/post/5f0d4fadf265da22f3250eaa#heading-9
+@endmindmap
