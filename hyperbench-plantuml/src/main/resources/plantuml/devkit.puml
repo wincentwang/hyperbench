@@ -1,0 +1,10 @@
+@startmindmap
+* devkit
+** database
+*** https://gitee.com/leshalv/screw
+*** mybatis-genrate
+** vcs
+*** gitlab
+*** gogs
+
+@endmindmap
