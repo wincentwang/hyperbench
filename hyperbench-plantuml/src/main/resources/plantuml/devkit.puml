@@ -2,9 +2,8 @@
 * devkit
 ** database
 *** https://gitee.com/leshalv/screw
-*** mybatis-genrate
-** vcs
+*** mybatis-generate
+** VCS
 *** gitlab
 *** gogs
-
 @endmindmap
