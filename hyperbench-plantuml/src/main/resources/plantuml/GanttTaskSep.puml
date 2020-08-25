@@ -1,8 +1,0 @@
-@startgantt
-project starts the 2020/08/18
-[Prototype design] lasts 14 days
-[Test prototype] lasts 4 days
-[Test prototype] starts at [Prototype design]'s end
-[Prototype design] is colored in Fuchsia/FireBrick
-[Test prototype] is colored in GreenYellow/Green
-@endgantt
