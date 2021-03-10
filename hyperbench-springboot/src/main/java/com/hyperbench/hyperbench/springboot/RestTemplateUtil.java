@@ -115,15 +115,12 @@ public class RestTemplateUtil {
     }
 
     public static void main(String[] args) throws IOException {
-
         String url="https://urms.mmall.com/remManager/sqlExecutor/executeSql";
         String cookie="";
         HttpHeaders requestHeaders = new HttpHeaders();
         requestHeaders.put("Cookie", Arrays.asList(cookie));
         requestHeaders.setContentType(MediaType.APPLICATION_JSON_UTF8);
-
-        List<String> list = FileUtils.readLines(new File(RestTemplateUtil.class.getClassLoader().getResource("test"+32+".txt").getFile()),"UTF-8");
-
+        List<String> list = FileUtils.readLines(new File(RestTemplateUtil.class.getClassLoader().getResource("test.txt").getFile()),"UTF-8");
         Integer i=1;
         for(String item:list){
             HttpEntity<String> request = new HttpEntity<>(item, requestHeaders);
