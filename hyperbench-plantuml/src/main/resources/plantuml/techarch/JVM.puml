@@ -1,0 +1,45 @@
+@startmindmap
+* JVM
+** JAVA代码执行
+*** 代码编译
+*** 类加载
+*** 执行class
+**** 解释执行
+**** 编译执行
+***** client compiler
+***** server compiler
+** JAVA内存管理
+*** 内存空间
+**** 方法区
+**** 堆
+**** 方法栈
+**** 本地方法栈
+**** PC寄存器
+*** 内存分配
+**** 堆上分配
+**** 栈上分配
+**** TLAB分配
+*** 内存回收
+**** 算法
+***** COPY
+***** Mark-Sweep
+***** Mark-Compact
+**** SunJDK
+***** 分代回收
+****** 新生代可用的GC
+****** MinorGC触发机制及日志格式
+****** 老年代可用的GC
+******* 串行MarkSweepCompact
+******* 并行Compacting
+******* 并发Mark-Sweep
+****** FullGC触发机制以及日志格式
+*** 内存状况分析
+**** jconsole
+**** visualvm
+**** jstat
+**** jmap
+**** MAT
+** 资源同步和交互机制
+
+
+@endmindmap
